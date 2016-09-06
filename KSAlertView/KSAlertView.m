@@ -52,9 +52,9 @@
     
     [self.window resignKeyWindow];
 
-    [MainDelegate.window makeKeyAndVisible];
+    [[UIApplication sharedApplication].delegate.window makeKeyAndVisible];
 
-    [MainDelegate.window becomeKeyWindow];
+    [[UIApplication sharedApplication].delegate.window becomeKeyWindow];
 
     [self removeFromSuperview];
 }

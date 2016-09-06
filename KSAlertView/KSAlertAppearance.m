@@ -63,7 +63,7 @@
         /** deleteTitle*/
         self.KSAlertCommitTitleAttributed = @{
                                               NSFontAttributeName:[UIFont systemFontOfSize:17],
-                                              NSForegroundColorAttributeName:KSColor(0, 145, 255)
+                                              NSForegroundColorAttributeName:KSColor(255, 100, 0)
                                               };
         /** Animation*/
         self.KSAlertAnimationStyle = KSAlertAnimationStyleDefault;
